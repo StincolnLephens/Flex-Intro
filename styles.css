@@ -5,32 +5,42 @@
 
 /* Demo 1: Turn on Flexbox on the parent. */
 .demo-one {
-  
+  display: flex;
+  flex-direction: column;
 }
 
 /* Demo 2: Change a row into a column. */
 .demo-two {
-  
+  display: flex;
+  flex-direction: column;
 }
 
 /* Demo 3: Arrange items on the main axis. */
 .demo-three {
-  
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Demo 4: Center items on both axes. */
 .demo-four {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Demo 5: Wrap items and add spacing. */
 .demo-five {
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /* Demo 6: Arrange a navigation list. */
 .demo-six {
-  
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 /* ======================================
@@ -39,19 +49,31 @@
    ====================================== */
 
 .challenge-one {
-  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .challenge-two {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .challenge-three {
-  
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .challenge-four {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .5rem;
 }
 
 
